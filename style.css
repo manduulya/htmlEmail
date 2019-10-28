@@ -1,0 +1,170 @@
+body{
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Titillium Web', sans-serif;
+    padding: 0;
+}
+a{
+    color: #000;
+}
+#wrapper{
+    margin: 0 auto;
+    width: 70%;
+    background: #dcdfe3;
+    padding: 0;
+}
+#innerWrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    font-family: 'Titillium Web', sans-serif;
+    padding: 2rem;
+}
+h1{
+    margin: 0;
+    font-weight: lighter;
+}
+#onecol{
+    margin: 0 auto;
+    background: #fff;
+    margin-bottom: 4rem;
+}
+#onecol img{
+    padding-top: 4rem;
+}
+#onecol a{
+    text-decoration: none;
+}
+#onecol a span:first-child{
+    font-size: 1.75rem;
+}
+#onecol a span:nth-child(3){
+    font-size: 2rem;
+    font-weight: bold;
+}
+#onecol #septext{
+    font-size: 1.25rem;
+    font-weight: lighter;
+}
+#onecol button{
+    width: 20%;
+    height: 3rem;
+    background: #1dccb7;
+    color: #fff;
+    border-style: none;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+hr{
+    width: 80%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+#secondContent img{
+    width: 100%;
+}
+#boxOne{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 3rem;
+}
+#boxOne img{
+    width: 100%;
+}
+#boxOne :nth-child(2){
+    background: #fff
+}
+#boxOne p{
+    font-size: 18px;
+}
+#boxOne button{
+    width: 40%;
+    height: 3rem;
+    background: #1dccb7;
+    color: #fff;
+    border-style: none;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+#boxTwo{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 3rem;
+}
+#boxTwo img{
+    width: 100%;
+}
+#boxTwo :first-child{
+    background: #fff
+}
+#boxTwo button{
+    width: 40%;
+    height: 3rem;
+    background: #1dccb7;
+    color: #fff;
+    border-style: none;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 2rem;
+}
+#boxTwo p{
+    font-size: 18px;
+}
+
+#boxThree{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 3rem;
+}
+#boxThree img{
+    width: 100%;
+}
+#boxThree :nth-child(2){
+    background: #fff
+}
+#boxThree button{
+    width: 40%;
+    height: 3rem;
+    background: #1dccb7;
+    color: #fff;
+    border-style: none;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 2rem;
+}
+#boxThree p{
+    font-size: 18px;
+}
+
+#footer{
+    width: 100%;
+    background: #fff;
+    padding: 1rem 0 0 0;
+    line-height: 4rem;
+}
+#footer span{
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.5rem;
+}
+#footer div div{
+    width: 100%;
+    height: 4rem;
+    background: #1dccb7;
+    color: #fff;
+}
+#footer div div a{
+    color: #fff;
+    font-weight: bold;
+}
